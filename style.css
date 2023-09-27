@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    margin:0;
+    padding: 0;
+    /* background-image: linear-gradient(to bottom, #9fc2cc, #73a8c0, #4b8cb5, #2a70a9,#1b5299); */
+    background: linear-gradient(to right top, #5189de, #567deb, #aeb9fc , #e8e7fc, #ffffff);
+    mix-blend-mode: normal;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    /* bg cover karne se nahi hota yeh, isse hoga */
+}
+
+
+nav{
+    background: #ffffff; /* V: Added White Here */
+    /* color: white; */
+    height: 70px;
+    width: 100%;
+    display: flexbox;
+    box-shadow: black;
+}
+
+
+
+nav ul li a{
+    font-family: 'Karla', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.food{
+    background-image:linear-gradient(to right, #5a23ac, #6629c3, #8338f3);
+    text-shadow: 0px 4px 4px rgba(255, 255, 255,0.35);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.food:hover{
+    background-image:linear-gradient(to right,   #5621a5, #5f25b6, #7732de);
+}
+.food1:hover{
+    background-image:linear-gradient(to right, rgb(49, 101, 183), #2d5be6, #3d72c9);
+}
+.food1{
+    background-image:linear-gradient(to right, #2e58d5, #2a53cd, #2f72df);
+    text-shadow: 0px 4px 4px rgba(255, 255, 255,0.35);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+ 
